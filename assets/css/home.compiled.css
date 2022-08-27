@@ -1,0 +1,101 @@
+@media (max-width: 991px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  p, li {
+    font-size: 0.875em;
+  }
+
+  /* navbar */
+  .nav-margin-right {
+    margin-right: 0;
+  }
+
+  .navbar-nav .nav-item {
+    padding: 0.25rem 0;
+    margin-right: 0;
+  }
+
+  .navbar-nav .nav-item:hover {
+    background-color: var(--biru-pucat);
+  }
+
+  #cara-vote.nav-button {
+    margin: 0.5rem 0;
+    width: 100%;
+  }
+
+  /* masthead */
+  #masthead .col {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  #masthead img {
+    position: static;
+    max-width: 100%;
+    max-height: 300px;
+  }
+
+  #cara-vote {
+    font-size: 24px;
+    margin-top: 1.5rem;
+  }
+
+  /* intro */
+  #intro {
+    min-height: 200px;
+  }
+
+  /* program */
+  #program {
+    height: initial;
+    padding-bottom: 1.5rem;
+  }
+
+  #program .card {
+    min-height: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+
+  /* aktivitas */
+  #aktivitas {
+    height: initial;
+    padding-bottom: 1.5rem;
+  }
+
+  #aktivitas .col {
+    margin-top: 1.5rem;
+  }
+
+  #aktivitas .card {
+    min-height: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+
+  #aktivitas .card:hover {
+    margin: initial;
+    transform: scale(0.95);
+  }
+
+  #aktivitas h2 {
+    width: initial;
+  }
+}
+@media (max-width: 400px) {
+  #masthead img {
+    max-width: 100%;
+    max-height: 250px;
+  }
+}

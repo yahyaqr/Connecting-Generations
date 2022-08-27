@@ -1,0 +1,329 @@
+:root {
+  --kuning-utama: rgb(255,203,63);
+  --biru-utama: rgb(18,104,131);
+  --biru-pucat: rgb(18, 110, 150);
+  --hitam-utama: rgb(70,70,70);
+  --putih-utama: rgb(255,255,255);
+  --putih-pucat: rgb(250,250,250);
+  --kuning-pucat: rgb(255,210,80);
+}
+
+@media (max-width: 991px) {
+  .small-none {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .small-only {
+    display: none !important;
+  }
+}
+
+p, h1, h2, h3, h4, h5, h6, a, li {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 68px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p, li {
+  font-size: 0.875em;
+}
+
+/* navbar */
+
+#navbar {
+  background-color: var(--biru-utama);
+  color: var(--putih-utama);
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 1.5rem;
+  margin-bottom: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-margin-right {
+  margin-right: 3rem;
+}
+
+.navbar-nav .nav-item .nav-link:focus, .navbar-nav .nav-item .nav-link:hover {
+  color: var(--kuning-utama);
+  transform: scale(0.95);
+  transition: 0.25s ease;
+}
+
+.nav-item .nav-link.active {
+  border-bottom: 5px solid var(--kuning-utama);
+}
+
+#navbar #logo {
+  max-width: 150px;
+}
+
+#cara-vote {
+  background-color: var(--kuning-utama);
+  border-radius: 25px;
+  width: 130px;
+  color: var(--hitam-utama);
+  font-weight: bold;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cara-vote:hover {
+  transform: scale(0.95);
+  transition: 0.25s ease;
+}
+
+#cara-vote.nav-button {
+  font-size: initial;
+}
+
+/* masthead */
+
+#masthead {
+  background-color: var(--biru-utama);
+  height: 576px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#masthead #cara-vote {
+  height: 50px;
+  margin: 1.5rem auto 0;
+  width: 200px;
+}
+
+#masthead .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#masthead .col {
+  flex: initial;
+  width: initial;
+}
+
+.div-relative {
+  position: relative;
+}
+
+#masthead img {
+  position: absolute;
+  bottom: -289px;
+  height: 525px;
+  right: 275px;
+  z-index: 2;
+}
+
+#masthead #img-cara-voting {
+  position: initial;
+  bottom: initial;
+  height: initial;
+  width: auto;
+  right: initial;
+}
+
+#masthead #masthead-geser {
+  position: relative;
+}
+
+#masthead #masthead-geser-div {
+  position: absolute;
+  left: 40px;
+  top: -210px;
+}
+
+#masthead #logo-masthead {
+  position: initial;
+  bottom: initial;
+  height: 350px;
+  right: initial;
+}
+
+#masthead #img-2 {
+  bottom: -302px;
+  right: 25px;
+  height: 525px;
+  transform: scale(0.95,0.95);
+  z-index: 1;
+}
+
+/* intro */
+
+#intro {
+  background-color: var(--kuning-utama);
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#intro p {
+  max-width: 650px;
+  margin: 0 auto;
+  transition: 0.25s ease;
+}
+
+#intro p:hover {
+  cursor: default;
+}
+
+/* program */
+
+#program {
+  background-color: var(--putih-utama);
+  min-height: 288px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+#program .col {
+  justify-content: center;
+}
+
+#program .card {
+  min-height: 225px;
+  min-width: 325px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 1.5rem;
+}
+
+#program .card-top-center {
+  background: linear-gradient(180deg, rgba(18,104,131,0.05) 0%, rgba(254,203,63,0.025) 100%);
+}
+
+#program .card-top-center:hover {
+  background: linear-gradient(180deg, rgba(18,104,131,0.05) 0%, rgba(254,203,63,0.05) 100%);
+  transform: scale(0.95);
+  transition: 0.25s ease;
+}
+
+#program p {
+  font-size: 0.875em;
+  text-align: justify;
+  margin-top: 1.5rem;
+  margin-bottom: 0px;
+}
+
+@media (min-width: 992px) {
+  #program p {
+    font-size: 0.8rem;
+  }
+}
+
+#program i {
+  font-size: 2rem;
+  margin-right: 0.75rem;
+  color: var(--biru-utama);
+}
+
+#program h2 {
+  font-weight: 500;
+  line-height: 0;
+}
+
+#program a {
+  text-decoration: none;
+  color: initial;
+}
+
+/* aktivitas */
+
+#aktivitas {
+  background-color: var(--putih-utama);
+  min-height: 288px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#aktivitas .col {
+  justify-content: center;
+}
+
+#aktivitas h2 {
+  color: var(--biru-utama);
+  font-weight: 500;
+  border-bottom: 3px solid var(--biru-utama);
+  width: 175px;
+  margin: 0 auto;
+  cursor: default;
+}
+
+/* footer */
+
+#footer {
+  background-color: var(--hitam-utama);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  text-align: center;
+}
+
+#footer #social-icons {
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#footer a {
+  text-decoration: none;
+  color: initial;
+}
+
+#footer p {
+  margin: auto;
+}
+
+#footer i {
+  font-size: 30px;
+  color: var(--putih-utama);
+}
+
+#footer i:hover {
+  transform: scale(0.95);
+  color: var(--kuning-utama);
+  transition: 0.25s ease;
+}
+
+.modal-content {
+  text-align: justify;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0px 4px 4px #0000001a;
+}
+
+.modal-header, .modal-body {
+  padding: 2rem;
+}
+

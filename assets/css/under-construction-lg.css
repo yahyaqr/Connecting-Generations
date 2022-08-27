@@ -1,0 +1,122 @@
+#under-construction {
+  height: 100%;
+  margin: 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#under-construction img {
+  height: 50px;
+}
+
+#under-construction #constimg-andy-refi {
+  margin-right: 1.5rem;
+}
+
+#under-construction h1, #under-construction h2, #under-construction p {
+  color: var(--biru-pucat);
+}
+
+#under-construction h2 {
+  margin-bottom: 1.5rem;
+  border-bottom: solid 5px var(--biru-utama);
+  color: var(--biru-utama);
+  transition: 0.25s ease;
+}
+
+#under-construction h1:hover {
+  color: var(--kuning-utama);
+  border-color: var(--kuning-utama);
+  transform: scale(1.05);
+}
+
+#under-construction p {
+  margin-top: 1.5rem;
+}
+
+#under-construction #social-link {
+  margin-top: -0.75rem;
+  font-size: 50px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 375px;
+}
+
+#under-construction i:hover {
+  transform: scale(0.9);
+  transition: 0.25s ease;
+}
+
+#under-construction .fa.fa-instagram:hover {
+  color: deeppink;
+  transition: 0.25s ease;
+}
+
+#under-construction .fa.fa-facebook-square:hover {
+  color: #3B5998;
+}
+
+#under-construction .fa.fa-twitter:hover {
+  color: #00ACEE;
+}
+
+#under-construction .fa.fa-linkedin-square:hover {
+  color: #0E76A8;
+}
+
+#under-construction .fa.fa-youtube-play:hover {
+  color: #E62117;
+}
+
+#under-construction .col.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 992px) {
+  #under-construction #illustration {
+    min-height: 900px;
+  }
+}
+
+@media (min-width: 992px) {
+  #under-construction #illustration.under-construction-img {
+    min-height: 400px;
+  }
+}
+
+#under-construction #illustration.under-construction-img {
+  filter: grayscale(1);
+  opacity: 0.5;
+}
+
+#under-construction i {
+  margin-right: 0.5rem;
+}
+
+#under-construction a {
+  text-decoration: none;
+  color: initial;
+}
+
+#under-construction .disabled {
+  opacity: 0.5;
+  filter: grayscale(1);
+}
+
+#under-construction .store {
+  transform: scale(2.5);
+  margin: 3rem;
+  transition: 0.25s ease;
+}
+
+#under-construction .store:hover {
+  transform: scale(2.75);
+}
+
+#profil .heading-blue {
+  color: var(--biru-utama);
+}
+

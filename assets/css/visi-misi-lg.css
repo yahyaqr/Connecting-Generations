@@ -1,0 +1,88 @@
+/* visi */
+
+#visi {
+  background-color: var(--putih-pucat);
+  height: 288px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#visi h2 {
+  color: var(--biru-utama);
+  font-weight: 500;
+  border-bottom: 3px solid var(--biru-utama);
+  width: 175px;
+  margin: 0 auto 1.5rem;
+  cursor: default;
+}
+
+#visi p {
+  max-width: 650px;
+  margin: 0 auto;
+  transition: 0.25s ease;
+}
+
+#visi p:hover {
+  transform: scale(1.05);
+  cursor: default;
+}
+
+#visi p:active {
+  font-weight: bold;
+}
+
+/* misi */
+
+#misi {
+  background-color: var(--putih-utama);
+  min-height: 288px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#misi .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#misi h2 {
+  color: var(--biru-utama);
+  font-weight: 500;
+  border-bottom: 3px solid var(--biru-utama);
+  width: 175px;
+  margin: 0 auto;
+  cursor: default;
+}
+
+#misi #isi-misi {
+  max-width: 800px;
+  text-align: left;
+}
+
+#misi ol {
+  margin: auto 0;
+}
+
+#misi li {
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#misi li:hover {
+  background-color: var(--putih-pucat);
+}
+
+#misi a {
+  text-decoration: none;
+  color: initial;
+}
+
+/* program */
+

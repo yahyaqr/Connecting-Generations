@@ -1,0 +1,80 @@
+#testimoni {
+  color: var(--hitam-utama);
+  background-color: var(--putih-utama);
+  padding-bottom: 2.5rem;
+}
+
+#testimoni .name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+#testimoni p {
+  color: var(--hitam-utama);
+}
+
+#testimoni .item {
+  margin-top: 2.5rem;
+}
+
+#testimoni .item .box {
+  padding: 30px;
+  min-height: 175px;
+  background: linear-gradient(135deg, rgba(18, 104, 131, 0.05) 0%, rgba(254, 203, 63, 0.05) 100%);
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+}
+
+#testimoni .item .box:after {
+  content: '';
+  position: absolute;
+  left: 30px;
+  bottom: -24px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-width: 12px 15px;
+  border-top-color: rgb(241,244,239);
+}
+
+#testimoni .item .author {
+  margin-top: 28px;
+  padding-left: 25px;
+}
+
+#testimoni .item .title {
+  font-size: 0.885em;
+  color: lightgray;
+  margin-bottom: 0;
+  padding-left: 60px;
+}
+
+#testimoni .item .description {
+  font-size: 0.875em;
+  margin-bottom: 0;
+}
+
+#testimoni .item img {
+  max-width: 42.5px;
+  float: left;
+  margin-right: 0.85rem;
+}
+
+#youtube.testimoni {
+  background-color: var(--putih-pucat);
+  min-height: 288px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+#youtube p {
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+
